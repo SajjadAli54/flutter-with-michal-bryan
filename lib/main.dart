@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bryan/my_stepper.dart';
 import 'package:flutter_bryan/my_tab_bar.dart';
 
 import 'expansion_panel.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyTabBar(),
+      home: const MySteper(),
     );
   }
 }
