@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bryan/steppar/my_stepper.dart';
 
+import 'gridview/mygridview.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -15,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MySteper(),
+      home: const MyGridView(),
     );
   }
 }
