@@ -7,3 +7,4 @@
 - [Tab Bar](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/tabbar)
 - [GridView](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/gridview)
 - [Flutter Charts](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/charts)
+- [Flutter Charts: Grouping Data](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/groupdata)
