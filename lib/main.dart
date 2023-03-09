@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bryan/charts/charts_demo.dart';
 import 'package:flutter_bryan/steppar/my_stepper.dart';
 
 import 'gridview/mygridview.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyGridView(),
+      home: const MyChartsDemo(),
     );
   }
 }
