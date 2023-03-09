@@ -1,5 +1,8 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
+# Steppar in Flutter
+
+````dart
+
+```import 'package:flutter/material.dart';
 
 class MySteper extends StatefulWidget {
   const MySteper({super.key});
@@ -14,7 +17,6 @@ class _MySteperState extends State<MySteper> {
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     _currentStep = 0;
     _steps = const [
@@ -73,3 +75,4 @@ class _MySteperState extends State<MySteper> {
         ));
   }
 }
+````

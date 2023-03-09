@@ -1,8 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bryan/my_stepper.dart';
-import 'package:flutter_bryan/my_tab_bar.dart';
-
-import 'expansion_panel.dart';
+import 'package:flutter_bryan/steppar/my_stepper.dart';
 
 void main() {
   runApp(const MyApp());
