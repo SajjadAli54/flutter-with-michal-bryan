@@ -1,8 +1,7 @@
 # Steppar in Flutter
 
-````dart
-
-```import 'package:flutter/material.dart';
+```dart
+import 'package:flutter/material.dart';
 
 class MySteper extends StatefulWidget {
   const MySteper({super.key});
@@ -75,4 +74,4 @@ class _MySteperState extends State<MySteper> {
         ));
   }
 }
-````
+```
