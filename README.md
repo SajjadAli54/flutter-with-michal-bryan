@@ -9,3 +9,4 @@
 - [Flutter Charts](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/charts)
 - [Flutter Charts: Grouping Data](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/groupdata)
 - [Flutter Charts: Animated Pie Chart](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/pie)
+- [Digital Clock](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/clock)

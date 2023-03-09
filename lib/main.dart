@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bryan/charts/charts_demo.dart';
+import 'package:flutter_bryan/clock/clock.dart';
 import 'package:flutter_bryan/groupdata/group_data.dart';
 import 'package:flutter_bryan/pie/pie_chart.dart';
 import 'package:flutter_bryan/steppar/my_stepper.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const PieChart(),
+      home: const Clock(),
     );
   }
 }
