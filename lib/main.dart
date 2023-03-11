@@ -1,11 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bryan/charts/charts_demo.dart';
-import 'package:flutter_bryan/clock/clock.dart';
-import 'package:flutter_bryan/groupdata/group_data.dart';
-import 'package:flutter_bryan/pie/pie_chart.dart';
-import 'package:flutter_bryan/steppar/my_stepper.dart';
-
-import 'gridview/mygridview.dart';
+import 'package:flutter_bryan/stopwatch/timer_counter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const Clock(),
+      home: const TimeCounter(),
     );
   }
 }
