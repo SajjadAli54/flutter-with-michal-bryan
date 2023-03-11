@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bryan/stopwatch/timer_counter.dart';
+import 'package:flutter_bryan/authenticator/main_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const TimeCounter(),
+      home: const MainPage(),
     );
   }
 }

@@ -10,4 +10,5 @@
 - [Flutter Charts: Grouping Data](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/groupdata)
 - [Flutter Charts: Animated Pie Chart](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/pie)
 - [Digital Clock](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/clock)
-- [Stop Watch](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/stopwatch)
+- [Stop Watch| Passing data from parent to child](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/stopwatch)
+- [Passing data from child to Parent | Authentication](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/authenticator)
