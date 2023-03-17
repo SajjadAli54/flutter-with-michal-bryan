@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_bryan/transformation/transformation.dart';
+import 'package:flutter_bryan/custompaints/custom_paints.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -10,7 +10,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: const Text('My App'),
       ),
-      body: const MyTransformation(),
+      body: const MyPaintDemo(),
     );
   }
 }
