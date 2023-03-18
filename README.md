@@ -17,3 +17,4 @@
 
 - [Widget Graphics Manipulation](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/advanced/mygraphics/)
 - [Animations](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/advanced/animation_tasks/)
+- [Maps](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/advanced/mymaps/)
