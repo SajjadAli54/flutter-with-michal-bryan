@@ -13,8 +13,7 @@
 - [Stop Watch| Passing data from parent to child](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/stopwatch)
 - [Passing data from child to Parent | Authentication](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/authenticator)
 
-
 ## Flutter Advanced
 
-- [Widget Graphics Manipulation](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/mygraphics/)
-- [Animations](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/animation_tasks/)
+- [Widget Graphics Manipulation](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/advanced/mygraphics/)
+- [Animations](https://github.com/SajjadAli54/flutter-with-michal-bryan/tree/main/lib/advanced/animation_tasks/)
