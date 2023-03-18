@@ -1,6 +1,14 @@
 # Widget Graphics Manipulation
 
+- [Opacity](#opacity)
+- [Opacity](#rotatedbox)
+- [Opacity](#box)
+- [Opacity](#transformation)
+- [Opacity](#paint)
+
 ## Opacity
+
+<div id="opacity"></div>
 
 ```dart
 import 'package:flutter/material.dart';
@@ -47,6 +55,8 @@ class _MyOpacityState extends State<MyOpacity> {
 ```
 
 ## Rotated Box
+
+<div id="rotatedbox"> </div>
 
 ```dart
 import 'package:flutter/material.dart';
@@ -95,6 +105,8 @@ class _MyRotatedBoxState extends State<MyRotatedBox> {
 
 ## Box Decoration
 
+<div id="box"></div>
+
 ```dart
 import 'package:flutter/material.dart';
 
@@ -136,6 +148,8 @@ class _MyBoxDecorationState extends State<MyBoxDecoration> {
 ```
 
 ## Transformation
+
+<div id="transformation"></div>
 
 ```dart
 import 'package:flutter/material.dart';
@@ -233,46 +247,47 @@ class _MyTransformationState extends State<MyTransformation> {
 
 ## Custom Painter
 
+<div id="paint"></div>
 ```dart
 import 'package:flutter/material.dart';
 
 class MyPaintDemo extends StatefulWidget {
-  const MyPaintDemo({super.key});
+const MyPaintDemo({super.key});
 
-  @override
-  State<MyPaintDemo> createState() => _MyPaintDemoState();
+@override
+State<MyPaintDemo> createState() => \_MyPaintDemoState();
 }
 
-class _MyPaintDemoState extends State<MyPaintDemo> {
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-        child: Center(
-            child: Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: [
-        const Text("Custom Paints",
-            style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
-        const SizedBox(height: 20),
-        CustomPaint(
-            painter: Painter(),
-            child: Container(
-              width: 200,
-              height: 200,
-            )),
-      ],
-    )));
-  }
+class \_MyPaintDemoState extends State<MyPaintDemo> {
+@override
+Widget build(BuildContext context) {
+return Container(
+child: Center(
+child: Column(
+mainAxisAlignment: MainAxisAlignment.center,
+children: [
+const Text("Custom Paints",
+style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold)),
+const SizedBox(height: 20),
+CustomPaint(
+painter: Painter(),
+child: Container(
+width: 200,
+height: 200,
+)),
+],
+)));
+}
 }
 
 class Painter extends CustomPainter {
-  @override
-  void paint(Canvas canvas, Size size) {
-    // TODO: implement paint
-    final radius = 100.0;
-    final offset = Offset(0.0, 75.0);
-    final bodyOffset = Offset(0.0, 50.0);
-    final bodySize = Size(0.0, 0.0);
+@override
+void paint(Canvas canvas, Size size) {
+// TODO: implement paint
+final radius = 100.0;
+final offset = Offset(0.0, 75.0);
+final bodyOffset = Offset(0.0, 50.0);
+final bodySize = Size(0.0, 0.0);
 
     final paint = Paint()
       ..isAntiAlias = true
@@ -282,11 +297,15 @@ class Painter extends CustomPainter {
       ..strokeWidth = 5.0;
 
     canvas.drawCircle(offset, radius, paint);
-  }
 
-  @override
-  bool shouldRepaint(covariant CustomPainter oldDelegate) {
-    return false;
-  }
 }
+
+@override
+bool shouldRepaint(covariant CustomPainter oldDelegate) {
+return false;
+}
+}
+
+```
+
 ```
