@@ -2,8 +2,6 @@
 
 Add flutter_charts dependency in pubspec.yaml
 
-![1678371892725](image/README/1678371892725.png)
-
 ## Code
 
 ```dart
