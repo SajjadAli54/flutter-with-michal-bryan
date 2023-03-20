@@ -10,20 +10,32 @@ class MyUrlLauncher extends StatefulWidget {
 }
 
 class _MyUrlLauncherState extends State<MyUrlLauncher> {
-  void _showUrl() {
-    _launch("https://sajjadali.netlify.app/");
+  void _showUrl() async {
+    // _launch("http://sajjadali.netlify.app/");
+    const url = 'https://blog.logrocket.com';
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
   }
 
-  void _showEmail() {
-    _launch("mailto:khaskhelisajjadali6@gmail.com?subject=Hello&body=Hi");
+  void _showEmail() async {
+    final uri = Uri(
+      scheme: 'mailto',
+      path: 'khaskhelisajjadali6@gmail.com',
+      query: 'subject=Example Email&body=This is an example email',
+    );
+
+    _launch(uri.toString());
   }
 
   void _showPhone() {
-    _launch("tel:340-268-9270");
+    _launch("tel:03402689270");
   }
 
   void _showSms() {
-    _launch("sms:340-268-9270");
+    _launch("sms:03402689270");
   }
 
   void _launch(String url) async {
@@ -31,7 +43,7 @@ class _MyUrlLauncherState extends State<MyUrlLauncher> {
     if (await canLaunchUrl(uri)) {
       await launchUrl(uri);
     } else {
-      throw 'Could not launch $url';
+      throw 'Could not launch $uri';
     }
   }
 
@@ -45,9 +57,9 @@ class _MyUrlLauncherState extends State<MyUrlLauncher> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             ElevatedButton(
-                onPressed: _showUrl, child: const Text('Open Google')),
+                onPressed: () => _showUrl(), child: const Text('Open Google')),
             ElevatedButton(
-                onPressed: _showEmail, child: const Text('Send Email')),
+                onPressed: () => _showEmail(), child: const Text('Send Email')),
             ElevatedButton(
                 onPressed: _showPhone, child: const Text('Call Phone')),
             ElevatedButton(onPressed: _showSms, child: const Text('Send SMS')),

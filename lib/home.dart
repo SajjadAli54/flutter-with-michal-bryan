@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bryan/advanced/animation_tasks/animatex_text.dart';
 import 'package:flutter_bryan/advanced/phone/myurl_launcher.dart';
 import 'package:flutter_bryan/advanced/phone/permissions.dart';
 
@@ -11,6 +12,6 @@ class Home extends StatelessWidget {
         appBar: AppBar(
           title: const Text('My App'),
         ),
-        body: const MyUrlLauncher());
+        body: const MyAnimatedText());
   }
 }
